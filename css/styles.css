@@ -81,23 +81,7 @@ nav a:hover {
   align-items: center;
 }
 
-.home-info-container {
-  width: 80%;
-  height: 80%;
-  display: flex;
-}
-
-.home-text-container {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .home-text {
-  height: 50%;
-  width: 70%;
   font-family: PoppinsRegular;
 }
 
@@ -134,13 +118,19 @@ nav a:hover {
 }
 
 .home-works {
-  height: 100vh;
+  height: 1100px;
   width: 100%;
   background-color: var(--background-gray);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.bar{
+  height: 10px;
+  width: 150px;
+  background-color:#49398f;
 }
 
 .home-works h1 {
@@ -161,10 +151,44 @@ nav a:hover {
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
   font-family: PoppinsRegular;
+}
+
+.works-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: PoppinsRegular;
+}
+
+.works2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: PoppinsRegular;
+}
+
+.works2 h2{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.viewproject{
+  margin-top: 30px;
+  color: #49398f;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.colored{
+  color: #8436e3;
 }
 
 .works-img {
@@ -178,7 +202,8 @@ nav a:hover {
 .works-img2 {
   height: 80%;
   width: 80%;
-  background-image: url(../images/virtualphoto.png);
+  background-image: url(../images/digitalphotography.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
