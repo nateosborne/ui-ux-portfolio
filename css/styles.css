@@ -122,15 +122,14 @@ nav a:hover {
   width: 100%;
   background-color: var(--background-gray);
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.bar{
+.bar {
   height: 10px;
   width: 150px;
-  background-color:#49398f;
+  background-color: #49398f;
 }
 
 .home-works h1 {
@@ -142,9 +141,28 @@ nav a:hover {
 }
 
 .works-container {
-  width: 80%;
+  width: 100%;
   height: 70%;
   display: flex;
+  justify-content: center;
+}
+
+.workrow1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.workrow2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #e6e6f0;
+}
+
+.row {
+  display: flex;
+  width: 70%;
 }
 
 .works {
@@ -175,19 +193,19 @@ nav a:hover {
   font-family: PoppinsRegular;
 }
 
-.works2 h2{
+.works2 h2 {
   margin-bottom: 20px;
   font-size: 30px;
 }
 
-.viewproject{
+.viewproject {
   margin-top: 30px;
   color: #49398f;
   font-weight: bold;
   font-size: 18px;
 }
 
-.colored{
+.colored {
   color: #8436e3;
 }
 
