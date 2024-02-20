@@ -16,9 +16,9 @@
   padding: 0;
 }
 
-* {
+/* * {
   animation: fadeIn 1s;
-}
+} */
 
 @keyframes fadeIn {
   0% {
@@ -29,7 +29,7 @@
   }
 }
 
-.tag {
+/* .tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
@@ -38,10 +38,33 @@
 .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
+} */
+
+html {
+  scroll-behavior: smooth;
 }
 
+/* .scroll-watcher {
+  height: 6px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #5965e3;
+  width: 100%;
+  scale: 0 1;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+  transform-origin: left;
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+} */
+
 nav {
-  background-color: var(--background-pink);
+  background-color: #e4e5f0;
   height: 70px;
   width: 100%;
   display: flex;
@@ -60,7 +83,7 @@ nav a:hover {
 }
 
 .link-container {
-  width: 85%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,17 +95,52 @@ nav a:hover {
   justify-content: space-between;
 }
 
-.home-info {
-  height: 100vh;
-  width: 100%;
-  background-color: var(--background-pink);
+.home-text-cont {
+  width: 60%;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .home-text {
   font-family: PoppinsRegular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 50%;
+}
+
+.home-text2 {
+  font-family: PoppinsRegular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50%;
+  font-size: 30px;
+}
+
+.home-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/AdobeStock_294293388.jpeg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  animation: hero-animation linear forwards;
+  animation-timeline: view();
+}
+
+@keyframes hero-animation {
+  0% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
 }
 
 .home-text h1 {
@@ -91,6 +149,10 @@ nav a:hover {
 
 .home-text p {
   margin-top: 10px;
+}
+
+.home-text2 {
+  text-shadow: 2px 2px 2px black;
 }
 
 .works-button {
@@ -138,6 +200,7 @@ nav a:hover {
   font-size: 50px;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .works-container {
@@ -151,18 +214,20 @@ nav a:hover {
   display: flex;
   width: 100%;
   justify-content: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
 }
 
 .workrow2 {
   display: flex;
   width: 100%;
   justify-content: center;
-  background-color: #e6e6f0;
+  /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08); */
+  background-color: #e4e5f0;
 }
 
 .row {
   display: flex;
-  width: 70%;
+  width: 60%;
 }
 
 .works {
@@ -196,17 +261,24 @@ nav a:hover {
 .works2 h2 {
   margin-bottom: 20px;
   font-size: 30px;
+  text-shadow: 1px 1px #5965e3;
 }
 
 .viewproject {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* border: #000 3px solid; */
+  background-color: black;
   margin-top: 30px;
-  color: #49398f;
-  font-weight: bold;
-  font-size: 18px;
+  color: white;
 }
 
 .colored {
-  color: #8436e3;
+  color: #5965e3;
 }
 
 .works-img {
@@ -224,4 +296,91 @@ nav a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.backtotop {
+  background-color: var(--background-gray);
+  padding-bottom: 50px;
+  font-family: PoppinsRegular;
+}
+
+.backtotop a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  height: 800px;
+  width: 100%;
+  background-color: var(--background-gray);
+  display: flex;
+  justify-content: center;
+}
+
+.about-cont {
+  width: 60%;
+  /* background-color: gray; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about-img {
+  height: 70%;
+  width: 40%;
+  background-color: #b6b8e0;
+}
+
+.about-img2 {
+  position: relative;
+
+  background-image: url(../images/nate.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  top: 15px;
+  left: 15px;
+}
+
+.about-text {
+  font-family: PoppinsRegular;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 70%;
+}
+
+.about-text h2 {
+  font-size: 100px;
+  text-shadow: 5px 5px #b6b8e0;
+}
+
+.about-text p {
+  height: 50%;
+  width: 50%;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-cont {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  font-family: PoppinsRegular;
+  color: white;
+  font-size: 12px;
 }
