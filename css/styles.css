@@ -223,6 +223,7 @@ nav a:hover {
   width: 100%;
   justify-content: center;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+  background-color: var(--background-gray);
 }
 
 .workrow2 {
@@ -452,6 +453,8 @@ PROJECT 1
   flex-direction: column;
   justify-content: center;
   font-family: PoppinsRegular;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 .proj1prob h2 {
@@ -467,6 +470,8 @@ PROJECT 1
   flex-direction: column;
   justify-content: center;
   font-family: PoppinsRegular;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 .proj1sol h2 {
@@ -619,4 +624,13 @@ PROJECT 1
   font-family: PoppinsRegular;
   font-size: 40px;
   text-shadow: 5px 5px #b6b8e0;
+}
+
+.hifiprototypeimg {
+  background-image: url(../images/LowFiPrototype.png);
+  width: 100%;
+  height: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
