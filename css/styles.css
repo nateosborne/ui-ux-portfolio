@@ -634,3 +634,87 @@ PROJECT 1
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.home-works3 {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/virtualphotographypages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-works3 h1 {
+  font-family: PoppinsRegular;
+  padding: 50px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+
+.flowchartimg2 {
+  background-image: url(../images/virtualphotographyflowchartr.png);
+  width: 70%;
+  height: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prototypeimg2 {
+  background-image: url(../images/vpfirstproto.png);
+  width: 100%;
+  height: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-works4 {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/icecreamapphero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-works4 h1 {
+  font-family: PoppinsRegular;
+  padding: 50px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+
+.flowchartimg3 {
+  background-image: url(../images/icecreamappflowchart.png);
+  width: 70%;
+  height: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prototypeimg3 {
+  background-image: url(../images/icecreamapplowfi.png);
+  width: 100%;
+  height: 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
