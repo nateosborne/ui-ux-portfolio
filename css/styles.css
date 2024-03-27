@@ -188,7 +188,7 @@ nav a:hover {
 }
 
 .home-works {
-  height: 1100px;
+  height: 1400px;
   width: 100%;
   background-color: var(--background-gray);
   display: flex;
@@ -310,6 +310,15 @@ nav a:hover {
   background-position: center;
 }
 
+.works-img3 {
+  height: 80%;
+  width: 80%;
+  background-image: url(../images/icecreamapp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .backtotop {
   background-color: var(--background-gray);
   padding-bottom: 50px;
@@ -377,6 +386,7 @@ nav a:hover {
 .about-text p {
   height: 50%;
   width: 50%;
+  line-height: 30px;
 }
 
 footer {
