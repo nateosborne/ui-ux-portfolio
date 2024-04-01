@@ -718,3 +718,25 @@ PROJECT 1
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.flowchartheader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flowchartheader a {
+  text-decoration: none;
+}
+
+.viewinfigma {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  margin-left: 50px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
