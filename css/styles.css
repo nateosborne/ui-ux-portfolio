@@ -440,7 +440,7 @@ PROJECT 1
 
 .works2-container {
   width: 100%;
-  height: 35vh;
+  height: 300px;
   display: flex;
   justify-content: center;
   background-color: var(--background-gray);
@@ -461,6 +461,10 @@ PROJECT 1
   margin-bottom: 20px;
   font-size: 30px;
   text-shadow: 1px 1px var(--bright-blue);
+}
+
+.proj1prob2 h1 {
+  font-size: 70px;
 }
 
 .proj1sol {
@@ -739,4 +743,43 @@ PROJECT 1
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 1700px) {
+  .projrow p,
+  li {
+    font-size: 12px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .proj1prob2 h1 {
+    font-size: 50px;
+  }
+  .flowchartheader h2 {
+    font-size: 50px;
+  }
+  #home-works h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #home-works h1 {
+    font-size: 50px;
+  }
+  .projrow p,
+  li {
+    line-height: 25px;
+  }
+  .projrow h2 {
+    font-size: 20px;
+  }
+  .proj1prob2 h1 {
+    font-size: 30px;
+  }
+  .flowchartheader h2 {
+    font-size: 30px;
+  }
 }
