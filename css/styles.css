@@ -745,6 +745,10 @@ PROJECT 1
   align-items: center;
 }
 
+.proj3li {
+  font-size: 14px;
+}
+
 @media only screen and (max-width: 1700px) {
   .projrow p,
   li {
@@ -760,6 +764,12 @@ PROJECT 1
   .home-text p {
     font-size: 12px;
   }
+  .flowchartheader h2 {
+    font-size: 50px;
+  }
+  .proj1prob2 h2 {
+    font-size: 50px;
+  }
   .about-text h2 {
     font-size: 70px;
   }
@@ -773,10 +783,16 @@ PROJECT 1
     width: 350px;
     height: 350px;
   }
+  .prototype h2 {
+    font-size: 50px;
+  }
+  .proj3li {
+    line-height: 30px;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
-  .proj1prob2 h1 {
+  .proj1prob2 h2 {
     font-size: 50px;
   }
   .flowchartheader h2 {
@@ -794,6 +810,7 @@ PROJECT 1
   .home-text p {
     font-size: 12px;
   }
+
   .works2 h2 {
     font-size: 20px;
   }
@@ -814,6 +831,10 @@ PROJECT 1
     width: 275px;
     height: 275px;
   }
+  .proj3li {
+    font-size: 12px;
+    line-height: 25px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -827,7 +848,7 @@ PROJECT 1
   .projrow h2 {
     font-size: 20px;
   }
-  .proj1prob2 h1 {
+  .proj1prob2 h2 {
     font-size: 30px;
   }
   .flowchartheader h2 {
@@ -838,6 +859,10 @@ PROJECT 1
   }
   .about-text p {
     font-size: 10px;
+    line-height: 20px;
+  }
+  .proj3li {
+    font-size: 12px;
     line-height: 20px;
   }
 }
